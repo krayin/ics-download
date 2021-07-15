@@ -1,0 +1,24 @@
+{
+    "name": "krayin/ics-download",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jitendra-webkul",
+            "email": "jitendra@webkul.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webkul\\CalendarApp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\CalendarApp\\Providers\\CalendarAppServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
